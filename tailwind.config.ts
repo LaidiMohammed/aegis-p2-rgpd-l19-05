@@ -11,9 +11,9 @@ const config: Config = {
         muted: "#6b7280",
       },
       fontFamily: {
-        display: ["Cormorant Garamond", "Georgia", "serif"],
-        sans: ["Inter", "Arial", "sans-serif"],
-        mono: ["IBM Plex Mono", "Consolas", "monospace"],
+        display: ["var(--font-display)", "Georgia", "serif"],
+        sans: ["var(--font-sans)", "Arial", "sans-serif"],
+        mono: ["var(--font-mono)", "Consolas", "monospace"],
       },
     },
   },
