@@ -1,4 +1,4 @@
-import ComplianceMeter from "@/components/ComplianceMeter";
+import Console from "@/components/Console";
 import Reveal from "@/components/Reveal";
 
 const CRITERIA = [
@@ -64,7 +64,7 @@ export default function Page() {
             </div>
           </Reveal>
         </div>
-        <Reveal delay={120}><ComplianceMeter /></Reveal>
+        <Reveal delay={120}><Console /></Reveal>
       </section>
 
       {/* CRITERES */}
